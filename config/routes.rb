@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'static_pages/prova2matheus'
+
   root   'static_pages#home'
   get    '/help',    to: 'static_pages#help'
   get    '/about',   to: 'static_pages#about'
